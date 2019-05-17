@@ -1,7 +1,5 @@
 name: "pyopenssl"
-description:
-    "A Python wrapper around the OpenSSL library"
-
+description: "A Python wrapper around the OpenSSL library"
 third_party {
   url {
     type: HOMEPAGE
@@ -11,7 +9,11 @@ third_party {
     type: GIT
     value: "https://github.com/pyca/pyopenssl"
   }
-  version: "19.0.0 "
-  last_upgrade_date { year: 2019 month: 2 day: 26 }
+  version: "19.0.0"
   license_type: NOTICE
+  last_upgrade_date {
+    year: 2019
+    month: 5
+    day: 13
+  }
 }
