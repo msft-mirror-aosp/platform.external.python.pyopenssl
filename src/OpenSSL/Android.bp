@@ -26,17 +26,9 @@ python_library {
     srcs: [
         "*.py",
     ],
-    version: {
-        py2: {
-            enabled: true,
-        },
-        py3: {
-            enabled: true,
-        },
-    },
     libs: [
         "py-cryptography",
-	"py-six",
+        "py-six",
     ],
     pkg_path: "OpenSSL",
 }
